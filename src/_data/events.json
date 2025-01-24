@@ -1,11 +1,11 @@
 {
     "upcoming": [
       {
-        "date": "2024-01-30",
-        "time": "10:30 AM",
-        "title": "TBA",
-        "authors": "",
-        "link": "",
+        "date": "2025-01-30",
+        "time": "11:30 AM",
+        "title": "Automated Social Science: Language Models as Scientist and Subjects",
+        "authors": "Manning, Zhu, and Horton",
+        "link": "https://arxiv.org/abs/2404.11794",
         "notes": ""
       }
     ],

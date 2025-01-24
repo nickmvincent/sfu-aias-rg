@@ -1,27 +1,31 @@
 module.exports = function(eleventyConfig) {
-  // Copy CSS directly to output
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
   
-  // Add date filter
   eleventyConfig.addFilter("formatDate", function(dateString) {
-    const date = new Date(dateString);
+    if (!dateString) return '';
+    const date = new Date(dateString + 'T00:00:00Z');
     return date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
+      day: 'numeric',
+      timeZone: 'UTC'
     });
   });
 
-  // Debug: Log all data after it's loaded
-  eleventyConfig.on('eleventy.after', ({ dir, results }) => {
-    console.log('Data available to templates:', results[0].data);
+  eleventyConfig.addFilter("sortByDate", function(events) {
+    if (!Array.isArray(events)) return [];
+    return events.sort((a, b) => {
+      const dateA = new Date(a.date + 'T00:00:00Z');
+      const dateB = new Date(b.date + 'T00:00:00Z');
+      return dateA - dateB;
+    });
   });
 
   return {
     dir: {
       input: "src",
-      output: "_site",
+      output: ".",
       includes: "_includes",
       data: "_data"
     }
