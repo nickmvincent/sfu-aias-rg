@@ -1,0 +1,90 @@
+---
+layout: base.njk
+title: Home
+---
+
+<h1>SFU AI and Society Reading Group</h1>
+
+<section class="about">
+    <h2>About Us</h2>
+    <p>Welcome to the SFU AI and Society Reading Group! We meet regularly to discuss research papers related to the societal implications of AI, AI ethics, and everything in these spheres. Our group is open to folks at SFU from any background.</p>
+</section>
+
+<section class="events">
+    <h2>Upcoming Events</h2>
+    <div class="events-table">
+        {% if events.upcoming and events.upcoming.length > 0 %}
+            {% for event in events.upcoming %}
+            <div class="event-card {% if event.image %}has-image{% endif %}">
+                <div class="event-content">
+                    <div class="event-date">
+                        {{ event.date | formatDate }} at {{ event.time }}
+                    </div>
+                    <div class="event-title">
+                        {% if event.link %}
+                            <a href="{{ event.link }}" target="_blank">{{ event.title }}{% if event.authors %} — {{ event.authors }}{% endif %}</a>
+                        {% else %}
+                            {{ event.title }}{% if event.authors %} — {{ event.authors }}{% endif %}
+                        {% endif %}
+                    </div>
+                    {% if event.notes %}
+                    <div class="event-notes">
+                        {{ event.notes }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% if event.image %}
+                <div class="event-image-container">
+                    <img src="{{ event.image }}" alt="Image for {{ event.title }}" class="event-image">
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="no-events">No upcoming events scheduled at this time. Check back soon!</p>
+        {% endif %}
+    </div>
+
+    <h2>Previous Events</h2>
+    <div class="events-table events-table-previous">
+        {% if events.previous and events.previous.length > 0 %}
+            {% for event in events.previous %}
+            <div class="event-card {% if event.image %}has-image{% endif %}">
+                <div class="event-content">
+                    <div class="event-date">
+                        {{ event.date | formatDate }} at {{ event.time }}
+                    </div>
+                    <div class="event-title">
+                        {% if event.link %}
+                            <a href="{{ event.link }}" target="_blank">{{ event.title }}{% if event.authors %} — {{ event.authors }}{% endif %}</a>
+                        {% else %}
+                            {{ event.title }}{% if event.authors %} — {{ event.authors }}{% endif %}
+                        {% endif %}
+                    </div>
+                    {% if event.notes %}
+                    <div class="event-notes">
+                        {{ event.notes }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% if event.image %}
+                <div class="event-image-container">
+                    <img src="{{ event.image }}" alt="Image for {{ event.title }}" class="event-image">
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="no-events">No previous events to show.</p>
+        {% endif %}
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contact Information</h2>
+    <p>For more information or to join our mailing list, please contact:</p>
+    <p>
+        Nick Vincent<br>
+        Email: <a href="mailto:nvincent@sfu.ca">nvincent@sfu.ca</a>
+    </p>
+</section>

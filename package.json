@@ -1,0 +1,17 @@
+{
+  "name": "sfu-aias-rg",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "SFU AI and Society Reading Group website",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

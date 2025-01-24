@@ -1,0 +1,44 @@
+{
+    "upcoming": [
+      {
+        "date": "2024-01-30",
+        "time": "10:30 AM",
+        "title": "TBA",
+        "authors": "",
+        "link": "",
+        "notes": ""
+      }
+    ],
+    "previous": [
+      {
+        "date": "2024-08-15",
+        "time": "1:00 PM",
+        "title": "The reanimation of pseudoscience in machine learning and its ethical repercussions",
+        "authors": "Andrews, Smart, and Birhane",
+        "link": "https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0",
+        "notes": "Focused paper discussions",
+        "image": "/images/ASB2024.png"
+      },
+      {
+        "date": "2024-08-02",
+        "time": "12:00 PM",
+        "title": "Discussion of the proceedings of GenLaw @ ICML 2024",
+        "link": "https://www.genlaw.org/2024-icml",
+        "notes": "Discuss papers related to training data (copyright, consent, etc.) and other legal aspects of generative AI"
+      },
+      {
+        "date": "2024-07-11",
+        "time": "1:00 PM",
+        "title": "The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence",
+        "authors": "Gebru and Torres",
+        "link": "https://firstmonday.org/ojs/index.php/fm/article/view/13636",
+        "notes": "Focused paper discussion"
+      },
+      {
+        "date": "2024-06-19",
+        "time": "1:00 PM",
+        "title": "Intro and Planning",
+        "notes": "An initial get together to share research interests and goals for the group"
+      }
+    ]
+  }
