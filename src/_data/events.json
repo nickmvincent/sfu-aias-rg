@@ -1,44 +1,99 @@
 {
-    "upcoming": [
-      {
-        "date": "2025-01-30",
-        "time": "11:30 AM",
-        "title": "Automated Social Science: Language Models as Scientist and Subjects",
-        "authors": "Manning, Zhu, and Horton",
-        "link": "https://arxiv.org/abs/2404.11794",
-        "notes": ""
-      }
-    ],
-    "previous": [
-      {
-        "date": "2024-08-15",
-        "time": "1:00 PM",
-        "title": "The reanimation of pseudoscience in machine learning and its ethical repercussions",
-        "authors": "Andrews, Smart, and Birhane",
-        "link": "https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0",
-        "notes": "Focused paper discussions",
-        "image": "/images/ASB2024.png"
-      },
-      {
-        "date": "2024-08-02",
-        "time": "12:00 PM",
-        "title": "Discussion of the proceedings of GenLaw @ ICML 2024",
-        "link": "https://www.genlaw.org/2024-icml",
-        "notes": "Discuss papers related to training data (copyright, consent, etc.) and other legal aspects of generative AI"
-      },
-      {
-        "date": "2024-07-11",
-        "time": "1:00 PM",
-        "title": "The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence",
-        "authors": "Gebru and Torres",
-        "link": "https://firstmonday.org/ojs/index.php/fm/article/view/13636",
-        "notes": "Focused paper discussion"
-      },
-      {
-        "date": "2024-06-19",
-        "time": "1:00 PM",
-        "title": "Intro and Planning",
-        "notes": "An initial get together to share research interests and goals for the group"
-      }
-    ]
-  }
+  "upcoming": [
+    {
+      "date": "2025-03-21",
+      "time": "11:30 AM",
+      "title": "Evaluating the Social Impact of Generative AI Systems in Systems and Society",
+      "authors": "Solaiman et al.",
+      "link": "https://arxiv.org/abs/2306.05949",
+      "notes": "Focused paper discussion",
+      "image": "/images/impacts_fig1.png"
+    },
+    {
+      "date": "2025-03-13",
+      "time": "11:30 AM",
+      "title": "https://arxiv.org/abs/2308.03296",
+      "authors": "Grosse et al.",
+      "link": "https://arxiv.org/abs/2308.03296",
+      "notes": "Focused paper discussion",
+      "image": "/images/inf_fig9.png"
+    },
+    {
+      "date": "2025-03-06",
+      "time": "11:30 AM",
+      "title": "h4rm3l: A Dynamic Benchmark of Composable Jailbreak Attacks for LLM Safety Assessment + OpenAI Model Spec",
+      "authors": "Doumbouya et al.",
+      "link": "https://arxiv.org/abs/2408.04811",
+      "notes": "Discuss jailbreaking benchmark paper and the OpenAI Model Spec",
+      "image": "/images/jailbreak_appendix.png"
+    },
+    {
+      "date": "2025-02-27",
+      "time": "11:30 AM",
+      "title": "Anthropic Economic Index",
+      "authors": "",
+      "link": "https://www.anthropic.com/economic-index",
+      "notes": "Focused paper discussion",
+      "image": "/images/index_fig.png"
+    }
+    
+  ],
+  "previous": [
+    {
+      "date": "2025-02-13",
+      "time": "11:30 AM",
+      "title": "News and Views",
+      "authors": "",
+      "link": "",
+      "notes": "Discuss recent events: Paris Summit, new models, reasoning"
+    },
+    {
+      "date": "2025-02-06",
+      "time": "11:30 AM",
+      "title": "Safety Alignment Should Be Made More Than Just a Few Tokens Deep",
+      "authors": "Qi et al",
+      "link": "https://arxiv.org/abs/2406.05946",
+      "notes": "Focused paper discussion",
+      "image": "/images/ais-deep-alignment.jpg"
+    },
+    {
+      "date": "2025-01-30",
+      "time": "11:30 AM",
+      "title": "Automated Social Science: Language Models as Scientist and Subjects",
+      "authors": "Manning, Zhu, and Horton",
+      "link": "https://arxiv.org/abs/2404.11794",
+      "notes": "Focused paper discussion",
+      "image": "/images/automated_fig1.png"
+    },
+    {
+      "date": "2024-08-15",
+      "time": "1:00 PM",
+      "title": "The reanimation of pseudoscience in machine learning and its ethical repercussions",
+      "authors": "Andrews, Smart, and Birhane",
+      "link": "https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0",
+      "notes": "Focused paper discussion",
+      "image": "/images/ASB2024.png"
+    },
+    {
+      "date": "2024-08-02",
+      "time": "12:00 PM",
+      "title": "Discussion of the proceedings of GenLaw @ ICML 2024",
+      "link": "https://www.genlaw.org/2024-icml",
+      "notes": "Discuss papers related to training data (copyright, consent, etc.) and other legal aspects of generative AI"
+    },
+    {
+      "date": "2024-07-11",
+      "time": "1:00 PM",
+      "title": "The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence",
+      "authors": "Gebru and Torres",
+      "link": "https://firstmonday.org/ojs/index.php/fm/article/view/13636",
+      "notes": "Focused paper discussion"
+    },
+    {
+      "date": "2024-06-19",
+      "time": "1:00 PM",
+      "title": "Intro and Planning",
+      "notes": "An initial get together to share research interests and goals for the group"
+    }
+  ]
+}
