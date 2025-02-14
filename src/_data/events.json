@@ -7,7 +7,7 @@
       "authors": "Solaiman et al.",
       "link": "https://arxiv.org/abs/2306.05949",
       "notes": "Focused paper discussion",
-      "image": "/images/impacts_fig1.png"
+      "image": "images/impacts_fig1.png"
     },
     {
       "date": "2025-03-13",
@@ -16,7 +16,7 @@
       "authors": "Grosse et al.",
       "link": "https://arxiv.org/abs/2308.03296",
       "notes": "Focused paper discussion",
-      "image": "/images/inf_fig9.png"
+      "image": "images/inf_fig9.png"
     },
     {
       "date": "2025-03-06",
@@ -25,7 +25,7 @@
       "authors": "Doumbouya et al.",
       "link": "https://arxiv.org/abs/2408.04811",
       "notes": "Discuss jailbreaking benchmark paper and the OpenAI Model Spec",
-      "image": "/images/jailbreak_appendix.png"
+      "image": "images/jailbreak_appendix.png"
     },
     {
       "date": "2025-02-27",
@@ -34,7 +34,7 @@
       "authors": "",
       "link": "https://www.anthropic.com/economic-index",
       "notes": "Focused paper discussion",
-      "image": "/images/index_fig.png"
+      "image": "images/index_fig.png"
     }
     
   ],
@@ -54,7 +54,7 @@
       "authors": "Qi et al",
       "link": "https://arxiv.org/abs/2406.05946",
       "notes": "Focused paper discussion",
-      "image": "/images/ais-deep-alignment.jpg"
+      "image": "images/ais-deep-alignment.jpg"
     },
     {
       "date": "2025-01-30",
@@ -63,7 +63,7 @@
       "authors": "Manning, Zhu, and Horton",
       "link": "https://arxiv.org/abs/2404.11794",
       "notes": "Focused paper discussion",
-      "image": "/images/automated_fig1.png"
+      "image": "images/automated_fig1.png"
     },
     {
       "date": "2024-08-15",
@@ -72,7 +72,7 @@
       "authors": "Andrews, Smart, and Birhane",
       "link": "https://www.cell.com/patterns/fulltext/S2666-3899(24)00160-0",
       "notes": "Focused paper discussion",
-      "image": "/images/ASB2024.png"
+      "image": "images/ASB2024.png"
     },
     {
       "date": "2024-08-02",
