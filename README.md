@@ -21,8 +21,9 @@ To run the site locally:
 ## Adding/Updating Events
 
 1. Edit \`src/_data/events.json\` to add or modify events
-2. Commit and push your changes
-3. The site will automatically rebuild and deploy
+2. `bun run build` (`npm run build`)
+3. Commit and push your changes
+3. GitHub pages will automatically rebuild and deploy 
 
 ## Contributing
 

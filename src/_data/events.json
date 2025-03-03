@@ -1,7 +1,7 @@
 {
   "upcoming": [
     {
-      "date": "2025-03-21",
+      "date": "2025-03-28",
       "time": "11:30 AM",
       "title": "Evaluating the Social Impact of Generative AI Systems in Systems and Society",
       "authors": "Solaiman et al.",
@@ -10,7 +10,7 @@
       "image": "images/impacts_fig1.png"
     },
     {
-      "date": "2025-03-13",
+      "date": "2025-03-21",
       "time": "11:30 AM",
       "title": "https://arxiv.org/abs/2308.03296",
       "authors": "Grosse et al.",
@@ -19,7 +19,7 @@
       "image": "images/inf_fig9.png"
     },
     {
-      "date": "2025-03-06",
+      "date": "2025-03-13",
       "time": "11:30 AM",
       "title": "h4rm3l: A Dynamic Benchmark of Composable Jailbreak Attacks for LLM Safety Assessment + OpenAI Model Spec",
       "authors": "Doumbouya et al.",
@@ -28,7 +28,7 @@
       "image": "images/jailbreak_appendix.png"
     },
     {
-      "date": "2025-02-27",
+      "date": "2025-03-06",
       "time": "11:30 AM",
       "title": "Anthropic Economic Index",
       "authors": "",
