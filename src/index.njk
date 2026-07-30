@@ -8,6 +8,7 @@ title: Home
 <section class="about">
     <h2>About Us</h2>
     <p>Welcome to the SFU AI and Society Reading Group! We meet regularly to discuss research papers related to the societal implications of AI, AI ethics, and everything in these spheres. Our group is open to folks at SFU from any background.</p>
+    <p class="meeting-details"><strong>2026 meeting details:</strong> We meet Wednesdays at 11:30 AM Pacific, in person in TASC 9204 unless otherwise noted.</p>
 </section>
 
 <section class="events">
@@ -18,7 +19,7 @@ title: Home
             <div class="event-card {% if event.image %}has-image{% endif %}">
                 <div class="event-content">
                     <div class="event-date">
-                        {{ event.date | formatDate }} at {{ event.time }}
+                        {{ event.date | formatDate }} at {{ event.time }}{% if event.location %} · {{ event.location }}{% endif %}
                     </div>
                     <div class="event-title">
                         {% if event.link %}
@@ -29,7 +30,29 @@ title: Home
                     </div>
                     {% if event.notes %}
                     <div class="event-notes">
-                        {{ event.notes }}
+                        <p>{{ event.notes }}</p>
+                    </div>
+                    {% endif %}
+                    {% if event.agenda %}
+                    <div class="event-details">
+                        <h3>Agenda</h3>
+                        <ol>
+                            {% for item in event.agenda %}
+                            <li>{{ item }}</li>
+                            {% endfor %}
+                        </ol>
+                    </div>
+                    {% endif %}
+                    {% if event.resources %}
+                    <div class="event-details">
+                        <h3>Background reading</h3>
+                        <ul>
+                            {% for resource in event.resources %}
+                            <li>
+                                <a href="{{ resource.link }}" target="_blank" rel="noopener noreferrer">{{ resource.title }}</a>{% if resource.authors %} — {{ resource.authors }}{% endif %}
+                            </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                     {% endif %}
                 </div>
@@ -52,7 +75,7 @@ title: Home
             <div class="event-card {% if event.image %}has-image{% endif %}">
                 <div class="event-content">
                     <div class="event-date">
-                        {{ event.date | formatDate }} at {{ event.time }}
+                        {{ event.date | formatDate }} at {{ event.time }}{% if event.location %} · {{ event.location }}{% endif %}
                     </div>
                     <div class="event-title">
                         {% if event.link %}
@@ -63,7 +86,36 @@ title: Home
                     </div>
                     {% if event.notes %}
                     <div class="event-notes">
-                        {{ event.notes }}
+                        <p>{{ event.notes }}</p>
+                    </div>
+                    {% endif %}
+                    {% if event.readings %}
+                    <div class="event-details">
+                        <h3>Readings</h3>
+                        <div class="reading-list">
+                            {% for reading in event.readings %}
+                            <article class="reading">
+                                <h4><a href="{{ reading.link }}" target="_blank" rel="noopener noreferrer">{{ reading.title }}</a></h4>
+                                {% if reading.authors %}<p class="reading-authors">{{ reading.authors }}</p>{% endif %}
+                                {% if reading.notes %}<p>{{ reading.notes }}</p>{% endif %}
+                            </article>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if event.recommendations %}
+                    <div class="event-details">
+                        <h3>Related reading from the discussion</h3>
+                        <div class="reading-list">
+                            {% for recommendation in event.recommendations %}
+                            <article class="reading">
+                                <h4><a href="{{ recommendation.link }}" target="_blank" rel="noopener noreferrer">{{ recommendation.title }}</a></h4>
+                                {% if recommendation.authors %}<p class="reading-authors">{{ recommendation.authors }}</p>{% endif %}
+                                {% if recommendation.notes %}<p>{{ recommendation.notes }}</p>{% endif %}
+                                {% if recommendation.website %}<p><a href="{{ recommendation.website }}" target="_blank" rel="noopener noreferrer">Kiri Wagstaff’s website</a></p>{% endif %}
+                            </article>
+                            {% endfor %}
+                        </div>
                     </div>
                     {% endif %}
                 </div>
@@ -82,7 +134,7 @@ title: Home
 
 <section class="contact">
     <h2>Contact Information</h2>
-    <p>For more information or to join our mailing list, please contact:</p>
+    <p>To join the mailing list or ask a question, contact:</p>
     <p>
         Nick Vincent<br>
         Email: <a href="mailto:nvincent@sfu.ca">nvincent@sfu.ca</a>

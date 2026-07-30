@@ -1,6 +1,72 @@
 {
   "upcoming": [
     {
+      "date": "2026-08-05",
+      "time": "11:30 AM",
+      "location": "TASC1 9408",
+      "title": "Networking and Informal Chat",
+      "notes": "Please note that next week’s session (Wednesday, August 5 at 11:30 AM) will move to TASC1 9408. We don’t have a set topic, so it will be a session for networking and informal conversation."
+    }
+  ],
+  "previous": [
+    {
+      "date": "2026-07-29",
+      "time": "11:30 AM",
+      "location": "TASC 9204",
+      "title": "Generative Social Science",
+      "notes": "Human interactions form one of the most important complex dynamic systems we know. This meeting introduces how social scientists model those interactions and explores how AI tools—including large language models, reinforcement learning, and causal graphs—could make social science more powerful and accessible.",
+      "agenda": [
+        "A brief introduction to mathematical game theory: an equilibrium-based, static approach.",
+        "A brief introduction to agent-based simulation: a dynamic-systems approach.",
+        "Discussion of Epstein’s “generative manifesto” and its argument for agent-based simulation over equilibrium-centred approaches.",
+        "Gauge interest in a follow-up meeting on AI for social science."
+      ],
+      "resources": [
+        {
+          "title": "Agent-Based Computational Models and Generative Social Science",
+          "authors": "Joshua M. Epstein",
+          "link": "https://doi.org/10.1002/(SICI)1099-0526(199905/06)4:5%3C41::AID-CPLX9%3E3.0.CO;2-F"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "time": "11:30 AM",
+      "location": "TASC 9204",
+      "title": "Paper Previews: Imaginations and Values in AI Research",
+      "notes": "Two paper previews about the goals and values shaping AI research. The presenters invited critical feedback on the first paper, which was under review at the time of the meeting.",
+      "readings": [
+        {
+          "title": "AI for Just Work: Constructing Diverse Imaginations of AI beyond “Replacing Humans”",
+          "authors": "Weina Jin, Nicholas Vincent, and Ghassan Hamarneh",
+          "link": "https://openreview.net/forum?id=n1rqG1LnRF",
+          "notes": "Calls on the AI technical community to diversify its collective imaginations of AI beyond replacing humans. The paper identifies limits in the mainstream imagination of AI and demonstrates an initial method for constructing alternatives in two AI tasks."
+        },
+        {
+          "title": "The Values Encoded in Machine Learning Research",
+          "authors": "Abeba Birhane, Pratyusha Kalluri, Dallas Card, William Agnew, Ravit Dotan, and Michelle Bao",
+          "link": "https://openreview.net/forum?id=oioB7Te7Bo",
+          "notes": "Audits highly cited NeurIPS and ICML papers to identify the mainstream values guiding AI development and examines how those values can support the concentration of power."
+        }
+      ],
+      "recommendations": [
+        {
+          "title": "Machine Learning that Matters",
+          "authors": "Kiri L. Wagstaff",
+          "link": "https://arxiv.org/abs/1206.4656",
+          "website": "https://www.wkiri.com/",
+          "notes": "Wagstaff’s 2012 ICML keynote paper argues that machine-learning research has lost touch with consequential problems in science and society. It highlights limitations in commonly used datasets and evaluation metrics, weak communication with originating domains, and the need to conduct research for greater real-world impact."
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "time": "11:30 AM",
+      "location": "TASC 9204",
+      "title": "Planning and Discussion of Current Events",
+      "notes": "Group planning and an open discussion of current events in AI and society."
+    },
+    {
       "date": "2025-04-03",
       "time": "11:30 AM",
       "title": "Evaluating the Social Impact of Generative AI Systems in Systems and Society",
@@ -35,10 +101,7 @@
       "link": "https://www.anthropic.com/economic-index",
       "notes": "Focused paper discussion",
       "image": "images/index_fig.png"
-    }
-    
-  ],
-  "previous": [
+    },
     {
       "date": "2025-02-13",
       "time": "11:30 AM",
